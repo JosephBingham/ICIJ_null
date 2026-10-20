@@ -1,0 +1,401 @@
+audit_id,officer_node_id,leak,node_source,officer_name,corporate_suffix,entity_degree,n_addresses,n_intermediaries,role_diversity,CODE_is_company(Y/N/?),CODE_acts_as_nominee_or_trustee_service(Y/N/?),CODE_notes
+1,12206217,Panama,Panama Papers,SP NOMINEES LTD.,True,2,1,2,1,Y,Y,
+2,12153547,Panama,Panama Papers,"CHURCH STREET TRUSTEES LIMITED AS TRUSTEES OF THE PRUDHOE TRUST, REFERENCE NUMBER 21 225",True,1,1,1,1,Y,Y,
+3,12218734,Panama,Panama Papers,Grange Nominees Limited,True,1,1,1,1,Y,Y,
+4,12125780,Panama,Panama Papers,MAYO NOMINEES LTD.,True,1,1,1,1,Y,Y,
+5,12171820,Panama,Panama Papers,Cannon Nominees Limited,True,1,1,1,1,Y,Y,
+6,12096062,Panama,Panama Papers,HSBC TRUSTEE (C.I.) LIMITED,True,1,1,1,1,Y,Y,
+7,12189766,Panama,Panama Papers,Investec Nominees (Jersey) Limited (Nominee),True,1,1,1,1,Y,Y,
+8,12131790,Panama,Panama Papers,JUPITER NOMINEES ONE S.A.,True,1,1,1,1,Y,Y,
+9,12150515,Panama,Panama Papers,"CHURCH STREET TRUSTEES LIMITED as Trustees of the MCKECHNIE FAMILY TRUST, ref no. 20 570",True,1,1,1,1,Y,Y,
+10,12134055,Panama,Panama Papers,"BetaNominee Holding Ltd.,",True,1,1,1,1,Y,Y,Has 'Nominee' in name; holding company structure but nominally a nominee vehicle
+11,12150697,Panama,Panama Papers,Sun Nominees Limited,True,2,1,1,1,Y,Y,
+12,12145796,Panama,Panama Papers,LOMBARD TRUST S A AS TRUSTEES OF THE BELGRAVIA TRUST,True,1,1,1,1,Y,Y,
+13,12087191,Panama,Panama Papers,Mohul Nominees Limited,True,1,0,1,1,Y,Y,
+14,12193455,Panama,Panama Papers,ECS INTERNATIONAL NOMINEES (BVI) LIMITED,True,1,1,1,1,Y,Y,
+15,12154576,Panama,Panama Papers,Red Shield Nominees Limited,True,1,1,1,1,Y,Y,
+16,12098192,Panama,Panama Papers,Guardian Trust Company Limited as trustees of the Morrison Trust,True,2,1,2,1,Y,Y,
+17,12098170,Panama,Panama Papers,INTERTREA NOMINEES LIMITED,True,1,1,1,1,Y,Y,
+18,12173991,Panama,Panama Papers,TAITNYS NOMINEES KIMITED,False,1,1,1,1,Y,Y,Typo 'KIMITED' for 'LIMITED'. ICIJ similar-name cluster confirms corporate nominee company TAITNYS NOMINEES LIMITED (node 12127070) with 13 entities. is_company=Y confirmed.
+19,12103802,Panama,Panama Papers,WATERMAN NOMINEES LIMITED AS TRUSTEES OF THE RJC TRUST,True,1,1,1,1,Y,Y,
+20,12193339,Panama,Panama Papers,QUORUM NOMINEES LIMITED,True,1,1,1,1,Y,Y,
+21,12039900,Panama,Panama Papers,BROCK NOMINEES,False,1,0,1,1,Y,Y,No explicit Ltd/Limited suffix in database but 'NOMINEES' implies company; coded Y
+22,12120128,Panama,Panama Papers,MOORES NOMINEES LIMITED,True,2,1,1,1,Y,Y,
+23,12198438,Panama,Panama Papers,PIONE NOMINEES LIMITED,True,2,1,1,1,Y,Y,
+24,12124875,Panama,Panama Papers,GRANITE TRUST COMPANY LIMITED as Trustee of the Stefan Petszaft No.1  Settlement,True,1,1,1,1,Y,Y,
+25,12100965,Panama,Panama Papers,FRENCHURCH NOMINEES LIMITED,True,1,1,1,1,Y,Y,
+26,12002714,Panama,Panama Papers,MONMOUTH NOMINEES (I.O.M.) LIMITED,True,1,0,1,1,Y,Y,
+27,12206190,Panama,Panama Papers,Markom Nominees Ltd,True,1,1,1,1,Y,Y,
+28,12165863,Panama,Panama Papers,Carey SAM as Trustee of the Brian Martin No.2 Settlement,True,1,1,1,1,Y,Y,
+29,12102860,Panama,Panama Papers,WATERMAN NOMINEES LIMITED,True,1,1,1,1,Y,Y,
+30,12144413,Panama,Panama Papers,CORPORATE NOMINEES LIMITED,True,1,1,1,1,Y,Y,
+31,12143566,Panama,Panama Papers,CHESTERFIELD NOMINEES LIMITED,True,15,1,1,1,Y,Y,High entity_degree (15) — likely large CSP
+32,12145952,Panama,Panama Papers,ANGLO SAXON TRUSTEES LIMITED and ILEX TRUSTEES S.A. as Trustees of THE MONOPOLI TRUST,True,1,1,1,1,Y,Y,
+33,12165346,Panama,Panama Papers,GlenQ Nominees Limited,True,1,1,1,1,Y,Y,
+34,12146620,Panama,Panama Papers,Baobab Trustees Limited as trustee of the BAR Trust,True,1,1,1,1,Y,Y,
+35,12173330,Panama,Panama Papers,Redmayne Nominees Limited A/c: LC3869K,True,1,1,1,1,Y,Y,
+36,12012230,Panama,Panama Papers,NORTH ATLANTIC NOMINEES CO. LTD.,True,5,1,2,1,Y,Y,
+37,12118000,Panama,Panama Papers,Ilex Trustees SA as Trustee of The V & A Trust,True,1,1,1,1,Y,Y,
+38,12123778,Panama,Panama Papers,Verfides Trust Services (London) Limited as trustees of The Davinci Trust,True,1,1,1,1,Y,Y,
+39,12146300,Panama,Panama Papers,IAP Trustees Limited,True,1,1,1,1,Y,Y,
+40,12170123,Panama,Panama Papers,Schindlers reg. Treuunternehmen as trustee of the Sabiestar Trust,True,1,1,1,1,Y,Y,
+41,12217572,Panama,Panama Papers,NORTH ATLANTIC TRUST COMPANY LIMITED AS TRUSTEE OF THE UFI TRUST,True,1,1,1,1,Y,Y,
+42,12201984,Panama,Panama Papers,Intercon Nominees Limited,True,2,1,1,1,Y,Y,
+43,12101128,Panama,Panama Papers,Oak Trust (Guernsey) Limited as Trustees of The Grateful Trust,True,3,1,1,1,Y,Y,
+44,12192286,Panama,Panama Papers,ELCAN NOMINEES LTD.,True,1,1,1,1,Y,Y,
+45,12151184,Panama,Panama Papers,CONFUCIUS TRUSTEES LTD,True,1,1,1,1,Y,Y,
+46,12133925,Panama,Panama Papers,"MOSSACK FONSECA & CO. (B.V.I.) LTD., acting as TRUSTEE OF FIDEICOMIOS RUISEÑOR 5318",True,1,1,1,1,Y,Y,Mossack Fonseca itself acting as trustee — major CSP/law firm
+47,12134993,Panama,Panama Papers,Marlborough Trust Company Limited as Trustees of the Misha Trust,True,1,1,1,1,Y,Y,
+48,12182275,Panama,Panama Papers,Management Nominees Limited,True,2,1,1,1,Y,Y,
+49,12172212,Panama,Panama Papers,Knox House Nominees Limited,True,1,1,1,1,Y,Y,
+50,12150519,Panama,Panama Papers,CHURCH STREET TRUSTEES LIMITED AS TRUSTEES OF THE KIDS INVESTMENTS TRUST NO 20 695,True,1,1,1,1,Y,Y,
+51,12220132,Panama,Panama Papers,A.F. NOMINEES LTD,True,5,1,1,1,Y,Y,
+52,12147939,Panama,Panama Papers,Volaw Nominees Two Limited,True,1,1,1,1,Y,Y,
+53,12043440,Panama,Panama Papers,"GOLDMAN SACHS & CO., as nominee for the benefit of Drawbridge Global Macro Master Fund Ltd",True,1,0,1,1,Y,Y,Goldman Sachs as nominee for a fund — financial institution acting as nominee
+54,12046032,Panama,Panama Papers,BALCHAN TRUSTEES LIMITED,True,1,0,1,1,Y,Y,
+55,12157070,Panama,Panama Papers,RIVE NOMINEES LIMITED,True,8,1,2,1,Y,Y,
+56,12196519,Panama,Panama Papers,GUERNSEY INTERNATIONAL TRUSTEES LTD.,True,3,1,2,1,Y,Y,
+57,12179409,Panama,Panama Papers,ELCAN NOMINEES  LIMITED,True,1,1,1,1,Y,Y,
+58,12031838,Panama,Panama Papers,ISLAND NOMINEES LIMITED,True,1,0,1,1,Y,Y,
+59,12147942,Panama,Panama Papers,VOLAW TRUSTEE LIMITED,True,1,1,1,1,Y,Y,
+60,12161549,Panama,Panama Papers,CAVERSHAM NOMINEES LIMITED,True,1,1,1,1,Y,Y,
+61,12119886,Panama,Panama Papers,PAUL B E QUAYLE AS TRUSTEE OF THE MAGLE SETTLEMENT,True,1,1,1,1,N,N,Individual acting as trustee of named trust
+62,12216166,Panama,Panama Papers,BTC NOMINEES S.A.,True,1,1,1,1,Y,Y,
+63,12158220,Panama,Panama Papers,Herald Nominees Limited,True,1,1,1,1,Y,Y,
+64,12116367,Panama,Panama Papers,MAYO NOMINEES LIMITED,True,1,1,1,1,Y,Y,
+65,12166400,Panama,Panama Papers,PROTEC Trust Management Establishment as Trustee of the ANSLOA TRUST,True,1,1,1,1,Y,Y,
+66,12198661,Panama,Panama Papers,ROYAL FIDUCIARY GROUP LIMITED,True,1,1,1,1,Y,Y,
+67,12178757,Panama,Panama Papers,TERTIUS NOMINEES (JERSEY) LIMITED,True,2,1,1,1,Y,Y,
+68,12213127,Panama,Panama Papers,Belgravia Nominees Limited,True,1,1,1,1,Y,Y,
+69,12106300,Panama,Panama Papers,GR NOMINEES LTD.,True,1,1,1,1,Y,Y,
+70,12196174,Panama,Panama Papers,Trident Nominees Limited (TRNO),True,1,1,1,1,Y,Y,
+71,12115133,Panama,Panama Papers,NORTH ATLANTIC TRUST COMPANY LIMITED & OLIVIER DUNANT as Trustee  of the IYANAH TRUST,True,1,1,1,1,Y,Y,
+72,12179324,Panama,Panama Papers,GENERAL NOMINEES LIMITED,True,1,1,1,1,Y,Y,
+73,12032122,Panama,Panama Papers,HSBC BANKING NOMINEE 1 (JERSEY) LTD,True,1,1,1,1,Y,Y,
+74,12182799,Panama,Panama Papers,TOWN MILLS NOMINEES LIMITED,True,1,1,1,1,Y,Y,
+75,12117272,Panama,Panama Papers,Imperium Nominees Two LImited,True,1,1,1,1,Y,Y,
+76,12165215,Panama,Panama Papers,HSBC INTERNATIONAL TRUSTEE LIMITED,True,1,1,1,1,Y,Y,
+77,12171079,Panama,Panama Papers,NAUTILUS FIDUCIARY MAURITIUS LIMITED,True,1,1,1,1,Y,Y,
+78,12175508,Panama,Panama Papers,LOUIS GROUP INTERNATIONAL NOMINEES (ONE) LIMITED,True,1,1,1,1,Y,Y,
+79,12155792,Panama,Panama Papers,Independent Guardian Trustees Ltd.,True,1,1,1,1,Y,Y,
+80,12164069,Panama,Panama Papers,CAVERSHAM NOMINEES LIMITED,True,2,1,2,1,Y,Y,
+81,12218184,Panama,Panama Papers,BAOBAB NOMINEES LIMITED,True,1,1,1,1,Y,Y,
+82,12109571,Panama,Panama Papers,KNOWLEDGE (NOMINEES) LIMITED,True,1,1,1,1,Y,Y,
+83,12198020,Panama,Panama Papers,RICHMOND NOMINEES LTD.,True,1,1,1,1,Y,Y,
+84,12155993,Panama,Panama Papers,Fairbairn Trust Co Limited As Trustees of The Alliance Trust,True,1,1,1,1,Y,Y,
+85,12128173,Panama,Panama Papers,Sofisco Nominees Limited,True,1,1,1,1,Y,Y,
+86,12143154,Panama,Panama Papers,"CHURCH STREET TRUSTEES as trustees of the GBA TRUST LIMITED, reference number 21 015",True,1,1,1,1,Y,Y,
+87,12223149,Panama,Panama Papers,ZENITH TRUSTEES LIMITED,True,1,1,1,1,Y,Y,
+88,12150497,Panama,Panama Papers,Church Street Trustees Limited as trustees of the special Purpose Trust for ELRINA TRADING LIMITED,True,1,1,1,1,Y,Y,
+89,12218833,Panama,Panama Papers,Markom Nominees Ltd,True,1,1,1,1,Y,Y,
+90,12184177,Panama,Panama Papers,Citadel Trust Limited formerly -Castellum Trust Limited as Trustees of the Lombok Trust,True,1,1,1,1,Y,Y,
+91,12036776,Panama,Panama Papers,CATER ALLEN NOMINEES (JERSEY) LIMITED,True,1,0,1,1,Y,Y,
+92,12000918,Panama,Panama Papers,LUTEA TRUSTEES LIMITED,True,9,0,1,1,Y,Y,
+93,12196622,Panama,Panama Papers,MAGNUS NOMINEES LIMITED,True,1,1,1,1,Y,Y,
+94,12129815,Panama,Panama Papers,MAITLAND NOMINEES LIMITED,True,1,1,1,1,Y,Y,
+95,12109247,Panama,Panama Papers,NOMINEES LIMITED,True,1,1,1,1,Y,Y,
+96,12149863,Panama,Panama Papers,Mayo Nominees Limited,True,1,1,1,1,Y,Y,
+97,12096467,Panama,Panama Papers,SANNE NOMINEES LIMITED,True,1,1,1,1,Y,Y,
+98,12171530,Panama,Panama Papers,CAVERSHAM NOMINEES LIMITED,True,4,1,3,1,Y,Y,
+99,12106694,Panama,Panama Papers,ROYAL FIDUCIARY GROUP LIMITED Re:TAF,True,1,1,1,1,Y,Y,
+100,12175285,Panama,Panama Papers,Balchan Nominees Limited,True,3,1,2,1,Y,Y,
+101,80133512,Paradise,Paradise Papers - Appleby,Tiger Nominees Ltd,True,1,1,0,1,Y,Y,
+102,80138697,Paradise,Paradise Papers - Appleby,United States Steel & Carnegie Pension Fund as Trustee for Marathon Oil Group Trust,True,1,1,0,1,Y,N,Pension/institutional trustee — not a nominee service
+103,56007368,Paradise,Paradise Papers - Malta corporate registry,SABRE TRUSTEES LIMITED AS TRUSTEE OF THE WESTCHESTER TRUST,True,1,1,0,1,Y,Y,
+104,80073653,Paradise,Paradise Papers - Appleby,"GW DeGroote,MH DeGroote,RW Martyn,TJ Counsell and Appleby Trust as Trustee of  the Paget East Trust",True,2,1,0,1,Y,Y,
+105,80105800,Paradise,Paradise Papers - Appleby,Nautilus Nominee Services Limited,True,6,1,0,1,Y,Y,
+106,56081053,Paradise,Paradise Papers - Malta corporate registry,OSIRIS TRUST LIMITED acting as trustee of The Valletta Sky Charity Trust,True,1,1,0,1,Y,Y,
+107,80081985,Paradise,Paradise Papers - Appleby,"J.F.Shea Co., Inc. as Nominee 2000-70",True,1,1,0,1,Y,N,Operating company (J.F. Shea construction/real estate) acting as nominee for one investment — not a nominee service
+108,80105654,Paradise,Paradise Papers - Appleby,Natban (Nominees) Ltd.,True,1,1,1,1,Y,Y,
+109,80046984,Paradise,Paradise Papers - Appleby,Chapel Nominees Limited,True,4,1,2,1,Y,Y,
+110,80098708,Paradise,Paradise Papers - Appleby,Martello Nominees Limited AC N1105 formerly known as Fortis Nominees (Guernsey) Limited,True,1,1,1,1,Y,Y,
+111,80089148,Paradise,Paradise Papers - Appleby,Anglo Irish Trust (IOM) Limited as Trustees of the Toledo Trust,True,1,1,0,1,Y,Y,
+112,80030438,Paradise,Paradise Papers - Appleby,Appleby Trust (Jersey) Limited and P & L Trust Company Limited as Trustees of the Chiswick Park Unit Trust,True,18,1,0,1,Y,Y,High entity_degree (18) — likely large CSP; Known corporate-services provider
+113,56050190,Paradise,Paradise Papers - Malta corporate registry,PINNACLE TRUSTEES LIMITED AS TRUSTEE OF THE CYCLADIC TRUST,True,1,1,0,1,Y,Y,
+114,80081334,Paradise,Paradise Papers - Appleby,Intertrust Trustees (Cayman) Limited,True,1,0,0,1,Y,Y,
+115,80065538,Paradise,Paradise Papers - Appleby,First Overseas Nominees Inc.,True,1,1,1,1,Y,Y,
+116,80020206,Paradise,Paradise Papers - Appleby,IMCO Nominees Limited,True,1,2,0,1,Y,Y,
+117,80115516,Paradise,Paradise Papers - Appleby,Railway Nominees Limited,True,1,1,0,1,Y,Y,
+118,56049151,Paradise,Paradise Papers - Malta corporate registry,AT NOMINEES LIMITED,True,1,1,0,1,Y,Y,
+119,80044161,Paradise,Paradise Papers - Appleby,Campbells Nominees Limited,True,2,1,1,1,Y,Y,
+120,56038061,Paradise,Paradise Papers - Malta corporate registry,SALTIRE TRUSTEES (OVERSEAS) LIMITED,True,1,1,0,1,Y,Y,
+121,80044502,Paradise,Paradise Papers - Appleby,Capita Trustees Limited As Trustees for Bennelong Asset Management Ltd 2006 Pension Plan Re 279402 (Mark Konda),True,1,1,0,1,Y,Y,Pension/institutional trustee — not a nominee service
+122,80068640,Paradise,Paradise Papers - Appleby,GASPEROW AS TRUSTEE OF THE RACHEL BIRNBACH EDLOW TRUST (1983) - Carl,True,1,2,0,1,N,N,Individual acting as trustee of named trust; May be a surname only; no clear company suffix — coded as individual
+123,86026191,Paradise,Paradise Papers - Aruba corporate registry,AGENCIA FIDUCIARIA GESTOR (A.F.GESTOR) N.V.,True,117,1,1,2,Y,Y,High entity_degree (117) — likely large CSP; Known corporate-services provider; deg=117 confirms large-scale fiduciary service
+124,80015715,Paradise,Paradise Papers - Appleby,Beta Trustees (PTC) Limited,True,1,3,0,1,Y,Y,
+125,56023436,Paradise,Paradise Papers - Malta corporate registry,ATICA NOMINEES S.A.,True,1,1,0,3,Y,Y,
+126,80132030,Paradise,Paradise Papers - Appleby,"The Clogher Trust by RBC Trust Company (Jersey) Limited, its trustee",True,1,1,0,1,Y,Y,
+127,80089786,Paradise,Paradise Papers - Appleby,Lomacott Pty Ltd as trustee for Keogh Super Fund A/C,True,1,1,0,1,Y,N,Pension/institutional trustee — not a nominee service
+128,80092395,Paradise,Paradise Papers - Appleby,Lerisson Nominees Limited,True,2,1,1,1,Y,Y,
+129,80067595,Paradise,Paradise Papers - Appleby,Fulcrum Nominees Ltd.,True,3,1,1,1,Y,Y,
+130,80036271,Paradise,Paradise Papers - Appleby,BKS Nominees One Limited,True,1,1,0,1,Y,Y,
+131,80038841,Paradise,Paradise Papers - Appleby,Japan Trustee Services Bank Ltd as trustee of Fund 835-46409-5006,True,1,1,0,1,Y,Y,Institutional bank trustee for single named fund; not a professional nominee/trustee service in the CSP sense
+132,80027354,Paradise,Paradise Papers - Appleby,ADT Trustees Limited,True,1,1,0,1,Y,Y,
+133,56037280,Paradise,Paradise Papers - Malta corporate registry,KENSINGTON NOMINEES LIMITED,True,1,1,0,1,Y,Y,
+134,56042545,Paradise,Paradise Papers - Malta corporate registry,LESLIE PERLMAN (AS TRUSTEE),True,1,1,0,1,N,N,Individual acting as trustee of named trust
+135,80131961,Paradise,Paradise Papers - Appleby,The Board of Trustees of The University of Alabama,False,1,0,1,1,Y,N,Institutional entity (university/fund) acting as trustee; No corporate suffix in name but clearly an institution
+136,56015628,Paradise,Paradise Papers - Malta corporate registry,EQUIOM NOMINEES LIMITED,True,1,1,0,1,Y,Y,
+137,80069835,Paradise,Paradise Papers - Appleby,Giltspur Nominees Limited,True,1,1,1,1,Y,Y,
+138,80022892,Paradise,Paradise Papers - Appleby,AIB Nominees (Jersey) Limited,True,1,1,0,1,Y,Y,
+139,56010942,Paradise,Paradise Papers - Malta corporate registry,IOF CUSTODIAN PTY LIMITED AS TRUSTEE FOR IOF EUROPEAN SUBSIDIARY TRUST NO. 2,True,2,1,0,1,Y,N,Property fund custodian acting as trustee of own group subsidiary trust; not an external nominee service
+140,80095607,Paradise,Paradise Papers - Appleby,Lota Fiduciary (Canada) Inc.,True,1,1,0,1,Y,Y,
+141,80089293,Paradise,Paradise Papers - Appleby,National Nominees Ltd as nominee for Victorian Workcover Authority,True,1,1,1,1,Y,Y,National Nominees Ltd is NAB's nominee/custodian arm — a professional nominee service; here acting for a specific pension fund
+142,80032394,Paradise,Paradise Papers - Appleby,BAE Systems 2000 Pension Plan Trustees Ltd,True,1,2,1,1,Y,N,Pension/institutional trustee — not a nominee service
+143,80120036,Paradise,Paradise Papers - Appleby,S2KI Nominees Inc,True,1,1,0,1,Y,Y,
+144,80138918,Paradise,Paradise Papers - Appleby,Utopia Trustees Sarl,True,1,1,0,1,Y,Y,
+145,56085190,Paradise,Paradise Papers - Malta corporate registry,ACUMUM TRUSTEES & FIDUCIARIES LIMITED,True,7,2,0,1,Y,Y,
+146,80132388,Paradise,Paradise Papers - Appleby,"Matthew Doull, As Trustee of The LKM Family Trust",True,1,1,0,1,N,N,Individual acting as trustee of named trust
+147,80054831,Paradise,Paradise Papers - Appleby,Trustees of Dartmouth College,False,2,2,0,1,Y,N,Institutional entity (university/fund) acting as trustee; No corporate suffix in name but clearly an institution
+148,80044399,Paradise,Paradise Papers - Appleby,Capco Nominees Limited,True,1,1,0,1,Y,Y,
+149,80028723,Paradise,Paradise Papers - Appleby,Allert Nominees Pty Ltd as trustee for the Antony Jack Family Trust,True,1,1,0,1,Y,Y,
+150,80030422,Paradise,Paradise Papers - Appleby,Appleby Trust (Cayman) Ltd. in its capacity as trustee for The CRC Purpose Trust,True,9,1,2,1,Y,Y,Known corporate-services provider
+151,80059548,Paradise,Paradise Papers - Appleby,"Edward P Schneider and Donald J Heng, Jr ., as Co-Trustees Under the Schneider Family 2005 Unitrust",True,2,1,0,1,N,N,Individual acting as trustee of named trust
+152,80117416,Paradise,Paradise Papers - Appleby,Ridgeway Nominees Limited,True,2,1,0,1,Y,Y,
+153,80137419,Paradise,Paradise Papers - Appleby,Trustees of the Billown Settlement,False,1,1,0,1,?,N,"""Trustees of X"" — likely individuals; single settlement, not a professional service"
+154,80082820,Paradise,Paradise Papers - Appleby,Jeffrey Brandes as Trustee,True,1,1,1,1,N,N,Individual acting as trustee of named trust
+155,80028173,Paradise,Paradise Papers - Appleby,Alchemy Partners Nominees Limited,True,2,1,0,1,Y,Y,
+156,56079634,Paradise,Paradise Papers - Malta corporate registry,PKF FIDUCIARIES INTERNATIONAL LTD,True,4,1,0,1,Y,Y,
+157,80145998,Paradise,Paradise Papers - Appleby,WPPEX WS Holdings Pty Ltd as Trustee for WPPEX WS Unit Trust,True,1,1,0,1,Y,Y,
+158,56015248,Paradise,Paradise Papers - Malta corporate registry,LEINSTER FIDUCIARIES LIMITED,True,2,1,0,1,Y,Y,
+159,80117098,Paradise,Paradise Papers - Appleby,R & H Trust Co. (Bermuda) Limited asTrustees of the Long Tail Trust,True,1,1,0,1,Y,Y,Rawlinson & Hunter Trust Co. — known professional trustee firm; coded Y
+160,80110377,Paradise,Paradise Papers - Appleby,Paragon Trust Ltd. as Trustee of the Sandra Powers Trust,True,1,1,0,1,Y,Y,
+161,80081276,Paradise,Paradise Papers - Appleby,International Monetary Fund as trustee of the International Monetary Fund Staff Retirement Plan,True,1,1,0,1,Y,N,Pension/institutional trustee — not a nominee service
+162,56043791,Paradise,Paradise Papers - Malta corporate registry,LESING NOMINEES LIMITED,True,1,1,0,1,Y,Y,
+163,80101363,Paradise,Paradise Papers - Appleby,Mercator Trustees Limited as Trustees of the Capvest International Pension Scheme - R Calvo Fund,True,1,1,0,1,Y,Y,Pension/institutional trustee — not a nominee service
+164,80092350,Paradise,Paradise Papers - Appleby,Leopold Joseph Trustee Limited AND Butterfield Trust (New Zealand) Limited as Co-Trustees,True,1,4,0,1,Y,Y,
+165,80140360,Paradise,Paradise Papers - Appleby,Vidacos Nominees Limited a/c BJB,True,2,1,1,1,Y,Y,
+166,80132282,Paradise,Paradise Papers - Appleby,The Hotham Trustee Company Limited and The Humber Trustee Company Limited as Trustee of The Beverley Transom Settlement,True,1,0,0,1,Y,Y,
+167,80060844,Paradise,Paradise Papers - Appleby,First Clifton Nominees Limited,True,4,1,2,1,Y,Y,
+168,80030399,Paradise,Paradise Papers - Appleby,Appleby Corporate Services (BVI) Limited as trustees of The Hoek Trust,True,1,2,0,1,Y,Y,
+169,80107558,Paradise,Paradise Papers - Appleby,Nortrust Nominees Limited A/C LBL07,True,1,1,0,1,Y,Y,
+170,56080005,Paradise,Paradise Papers - Malta corporate registry,BALTIMORE FIDUCIARY SERVICES LIMITED,True,21,1,0,4,Y,Y,High entity_degree (21) — likely large CSP; Known corporate-services provider
+171,80074921,Paradise,Paradise Papers - Appleby,Harmsworth Trust Company (PTC) Limited as trustee of the Main Fund,True,1,0,0,1,Y,Y,
+172,80112845,Paradise,Paradise Papers - Appleby,"Pinnacle Trustees, Ltd.",True,1,1,0,1,Y,Y,
+173,80059547,Paradise,Paradise Papers - Appleby,Edward P Schneider as Trustee  Under the Voting Trust Agreement,True,1,1,0,1,N,N,Individual acting as trustee of named trust
+174,80030423,Paradise,Paradise Papers - Appleby,Appleby Trust (Cayman) Ltd. as trustee to The PlanCo STAR Trust,True,1,1,1,1,Y,Y,
+175,46000032,Paradise,Paradise Papers - Cook Islands corporate registry,PACO NOMINEES LIMITED,True,7,0,0,1,Y,Y,
+176,80038850,Paradise,Paradise Papers - Appleby,BP Pension Trustees Limited,True,1,2,0,1,Y,N,Pension/institutional trustee — not a nominee service
+177,56033265,Paradise,Paradise Papers - Malta corporate registry,MAITLAND TRUSTEES LIMITED AS TRUSTEE OF THE INTERPOSITUM TRUST,True,1,1,0,1,Y,Y,
+178,80140057,Paradise,Paradise Papers - Appleby,HSBC Trustee (Guernsey) Limited as trustee of the Mer Trust,True,1,1,0,1,Y,Y,
+179,80127711,Paradise,Paradise Papers - Appleby,State House Trust Company Limited as Trustee of the LEM n' LEW Trust,True,1,2,0,1,Y,Y,
+180,80078947,Paradise,Paradise Papers - Appleby,HSBC Client Holdings Nominee (UK) Limited a/c 640341,True,1,1,0,1,Y,Y,
+181,80043590,Paradise,Paradise Papers - Appleby,Copperwood Nominees Limited,True,1,1,0,1,Y,Y,
+182,80065242,Paradise,Paradise Papers - Appleby,FINAB Nominees Ltd.,True,2,1,0,1,Y,Y,
+183,80101359,Paradise,Paradise Papers - Appleby,First Names Nominees (Guernsey) Limited as Nominees of AUB Global Select Holdings Limited,True,1,1,0,1,Y,Y,
+184,80131332,Paradise,Paradise Papers - Appleby,Teawood Nominees Limited (a/c 35288),True,1,1,0,1,Y,Y,
+185,80079033,Paradise,Paradise Papers - Appleby,HSBC Trustee (Guernsey) Limited,True,3,1,1,2,Y,Y,
+186,80045827,Paradise,Paradise Papers - Appleby,Centre Trustees (C.I.) Limited,True,1,1,1,1,Y,Y,
+187,56083930,Paradise,Paradise Papers - Malta corporate registry,SOLV INTERNATIONAL LTD as TRUSTEES OF THE A&P CHARITABLE TRUST,True,4,1,0,1,Y,Y,
+188,80026646,Paradise,Paradise Papers - Appleby,Abacus (Nominees) Limited as trustee for The Daupine Trust,True,1,1,0,1,Y,Y,
+189,56093862,Paradise,Paradise Papers - Malta corporate registry,JURA MANAGEMENT TRUST REG. as TRUSTEE OF BLUE PLANET MALTA EMPLOYEE TRUST.,True,2,1,0,1,Y,Y,
+190,80063060,Paradise,Paradise Papers - Appleby,Equiom Trust Company Limited as Trustees of the Toledo Trust,True,1,1,0,1,Y,Y,
+191,56078263,Paradise,Paradise Papers - Malta corporate registry,FIRST VALETTA NOMINEE LTD,True,4,1,0,2,Y,Y,
+192,56006830,Paradise,Paradise Papers - Malta corporate registry,INTERFIN TRUSTEE LIMITED as trustee of Vesla Trust,True,1,1,0,1,Y,Y,
+193,80062597,Paradise,Paradise Papers - Appleby,UBS Trustees (Jersey) Limited,True,4,1,0,1,Y,Y,
+194,56095604,Paradise,Paradise Papers - Malta corporate registry,PAGE. TRUSTEES LIMITED,True,1,1,0,1,Y,Y,
+195,56044848,Paradise,Paradise Papers - Malta corporate registry,HG NOMINEES 1 LTD,True,4,1,0,1,Y,Y,
+196,56091233,Paradise,Paradise Papers - Malta corporate registry,NTERTRUST TRUSTEES (CAYMAN) LIMITED as trustee of the Quartermaine Trust,True,1,1,0,1,Y,Y,
+197,56025979,Paradise,Paradise Papers - Malta corporate registry,INDEPENDENT TRUSTEE COMPANY LIMITED AS TRUSTEE OF THE PADRAIG MCELWAIN PENSION TRUST,True,1,1,0,1,Y,Y,Pension/institutional trustee — not a nominee service
+198,80033105,Paradise,Paradise Papers - Appleby,Bank of New York as Directed Trustee of the Michelin North America Master Trust,True,1,1,0,1,Y,Y,Major bank acting as directed trustee for single pension trust; not a professional nominee service
+199,80104446,Paradise,Paradise Papers - Appleby,MPB Nominees Limited,True,4,1,0,1,Y,Y,
+200,80081466,Paradise,Paradise Papers - Appleby,IoMCSL Nominees Limited,True,1,1,1,1,Y,Y,
+201,102066,OffshoreLeaks,Offshore Leaks,Asiatrust Limited as Trustee of the Infinity Trust,True,1,0,1,1,Y,Y,
+202,56789,OffshoreLeaks,Offshore Leaks,Quorum Nominees Limited,True,1,1,1,1,Y,Y,
+203,65793,OffshoreLeaks,Offshore Leaks,Clyde Nominees Ltd & Cycle Custodians Lt,True,1,0,1,1,Y,Y,
+204,69604,OffshoreLeaks,Offshore Leaks,Managecorop Limited as Trustee of the Leo Trust,True,1,1,1,1,Y,Y,
+205,16296,OffshoreLeaks,Offshore Leaks,Goodgate Nominees Ltd,True,2,0,1,1,Y,Y,
+206,46621,OffshoreLeaks,Offshore Leaks,Trilex Nominees Limited,True,1,1,1,1,Y,Y,
+207,16622,OffshoreLeaks,Offshore Leaks,Hophil Nominees (BVI) Limited,True,2,0,1,1,Y,Y,
+208,90879,OffshoreLeaks,Offshore Leaks,PAYDAY NOMINEES LTD,True,2,1,1,1,Y,Y,
+209,1087,OffshoreLeaks,Offshore Leaks,IMT Fiduciary Services Limited,True,1,0,1,1,Y,Y,
+210,60633,OffshoreLeaks,Offshore Leaks,"Sami G. Messiah, as Successor Trustee of the Messiha Trust",True,1,0,1,1,N,N,Individual acting as trustee of named trust
+211,102416,OffshoreLeaks,Offshore Leaks,L&L Trustee Co. Ltd (Trustee - TRI-L Fou,True,1,0,1,1,Y,Y,
+212,5641,OffshoreLeaks,Offshore Leaks,Company Kit Nominees Inc.,True,3,0,1,1,Y,Y,
+213,75789,OffshoreLeaks,Offshore Leaks,Tertius Nominees (Jersey) Limited,True,1,1,1,1,Y,Y,
+214,24945,OffshoreLeaks,Offshore Leaks,Integrity Trustees Ltd.,True,14,1,1,3,Y,Y,High entity_degree (14) — likely large CSP; Known corporate-services provider
+215,23690,OffshoreLeaks,Offshore Leaks,HLB Nominees (Cyprus) Limited,True,6,1,3,1,Y,Y,
+216,12472,OffshoreLeaks,Offshore Leaks,EuroTrade Nominees Ltd.,True,2,0,1,1,Y,Y,
+217,13100,OffshoreLeaks,Offshore Leaks,Eurotrade Nominees Ltd.,True,1,0,1,1,Y,Y,
+218,23066,OffshoreLeaks,Offshore Leaks,Shield Nominees Ltd,True,2,1,1,1,Y,Y,
+219,96573,OffshoreLeaks,Offshore Leaks,HSBC International Trustee Limited,True,27,1,10,3,Y,Y,High entity_degree (27) — likely large CSP; Known corporate-services provider
+220,41759,OffshoreLeaks,Offshore Leaks,ATC Trustees (BVI) Limited              ,True,2,1,2,2,Y,Y,
+221,23517,OffshoreLeaks,Offshore Leaks,Colairie Nominees Ltd.,True,22,1,1,1,Y,Y,High entity_degree (22) — likely large CSP; Known corporate-services provider
+222,27716,OffshoreLeaks,Offshore Leaks,Fletcher Kennedy Nominees Ltd.,True,1,1,1,1,Y,Y,
+223,40785,OffshoreLeaks,Offshore Leaks,Ledra Services (Nominees) Limited,True,1,1,1,1,Y,Y,
+224,40218,OffshoreLeaks,Offshore Leaks,Alba  Servizi Fiduciari S.A.,True,1,1,1,1,Y,Y,
+225,90736,OffshoreLeaks,Offshore Leaks,Westco Nominees Limited,True,5,1,4,1,Y,Y,
+226,118837,OffshoreLeaks,Offshore Leaks,Hophil Nominees Limited,True,14,1,1,1,Y,Y,High entity_degree (14) — likely large CSP; Known corporate-services provider
+227,99278,OffshoreLeaks,Offshore Leaks,HongkongBank Int'l Trustee Limited A/C,True,2,1,2,1,Y,Y,
+228,23900,OffshoreLeaks,Offshore Leaks,One World Fiduciaries Limited,True,5,1,1,1,Y,Y,
+229,44185,OffshoreLeaks,Offshore Leaks,Codan Trustees (B.V.I.) Limited,True,2,1,1,1,Y,Y,
+230,11402,OffshoreLeaks,Offshore Leaks,Company Kit Nominees Inc.,True,1,0,1,1,Y,Y,
+231,104708,OffshoreLeaks,Offshore Leaks,UBS Nominees (Jersey) Limited,True,1,0,1,1,Y,Y,
+232,20643,OffshoreLeaks,Offshore Leaks,Company Kit Nominees Inc.,True,297,1,1,1,Y,Y,High entity_degree (297) — likely large CSP; Known corporate-services provider; deg=297 — very large nominee company
+233,100156,OffshoreLeaks,Offshore Leaks,Orchid Nominee Ltd,True,1,0,1,1,Y,Y,
+234,6467,OffshoreLeaks,Offshore Leaks,Castlerock Nominees Limited,True,3,0,1,1,Y,Y,
+235,43599,OffshoreLeaks,Offshore Leaks,LNL Nominees Limited,True,3,1,1,2,Y,Y,
+236,11771,OffshoreLeaks,Offshore Leaks,Company Kit Nominees Inc.,True,4,0,1,1,Y,Y,
+237,5835,OffshoreLeaks,Offshore Leaks,Particular Nominee Service Limited,True,3,0,2,2,Y,Y,
+238,34011,OffshoreLeaks,Offshore Leaks,Capital Nominees Limited.,True,1,0,1,1,Y,Y,
+239,23981,OffshoreLeaks,Offshore Leaks,Howsworth Nominee Limited,True,1,1,1,2,Y,Y,
+240,5412,OffshoreLeaks,Offshore Leaks,Hophil Nominees (BVI) Limited,True,1,0,1,2,Y,Y,
+241,1328,OffshoreLeaks,Offshore Leaks,Nominee Secretary Ltd.,True,1,0,1,1,Y,Y,
+242,48376,OffshoreLeaks,Offshore Leaks,ATP Nominees Limited                    ,True,5,1,3,2,Y,Y,
+243,55332,OffshoreLeaks,Offshore Leaks,Skye Nominees Limited,True,1,1,1,1,Y,Y,
+244,15314,OffshoreLeaks,Offshore Leaks,COLAIRIE NOMINEES LTD.,True,1,0,1,1,Y,Y,
+245,11406,OffshoreLeaks,Offshore Leaks,Company Kit Nominees Inc.,True,1,0,1,1,Y,Y,
+246,1575,OffshoreLeaks,Offshore Leaks,HLB Nominees (Cyprus) Limited,True,5,0,1,1,Y,Y,
+247,57383,OffshoreLeaks,Offshore Leaks,Fidelitycorp Limited as trustee of the Soon Family Trust,True,1,1,1,2,Y,Y,
+248,20279,OffshoreLeaks,Offshore Leaks,Particular Nominee Services Limited,True,4,1,1,2,Y,Y,
+249,94487,OffshoreLeaks,Offshore Leaks,Managecorop Limited as Trustee of  the Perpetual Trust,True,1,1,1,1,Y,Y,
+250,114114,OffshoreLeaks,Offshore Leaks,Dalyson Capital Ltd as Trustee of GRANTVILLE TRUST,True,1,1,1,1,Y,Y,
+251,41003,OffshoreLeaks,Offshore Leaks,Bettern Nominees Limited,True,7,1,3,1,Y,Y,
+252,83687,OffshoreLeaks,Offshore Leaks,UBS Trustees (SINGAPORE) Ltd.,True,2,1,2,2,Y,Y,
+253,24451,OffshoreLeaks,Offshore Leaks,LEDRA TRUSTEES LIMITED,True,2,1,1,2,Y,Y,
+254,15870,OffshoreLeaks,Offshore Leaks,Company Kit Nominees Inc.,True,1,0,1,1,Y,Y,
+255,80802,OffshoreLeaks,Offshore Leaks,FIDELITYCORP LIMITED as trustee of Madew Worldwide Trust,True,1,1,1,1,Y,Y,
+256,46516,OffshoreLeaks,Offshore Leaks,S. F. Trustees Ltd                      ,True,2,1,1,1,Y,Y,
+257,42157,OffshoreLeaks,Offshore Leaks,Hongkongbank International Trustee Ltd a/c REDACTED-001,True,1,1,1,1,Y,Y,
+258,55268,OffshoreLeaks,Offshore Leaks,PortcullIis Nominees Pte Ltd,True,4,1,3,1,Y,Y,
+259,120741,OffshoreLeaks,Offshore Leaks,Managecorop Limited as Trustee of the Fidelity Trust,True,1,0,1,1,Y,Y,
+260,113997,OffshoreLeaks,Offshore Leaks,Portcullis Nominees (BVI) Limited,True,308,50,131,4,Y,Y,High entity_degree (308) — likely large CSP; Known corporate-services provider; deg=308 — extremely large nominee service (Portcullis TrustNet)
+261,20139,OffshoreLeaks,Offshore Leaks,Wall Street (Asia) Management Nominees Limited,True,12,1,2,3,Y,Y,High entity_degree (12) — likely large CSP
+262,42726,OffshoreLeaks,Offshore Leaks,CSC Trustee Company Limited             ,True,4,1,2,2,Y,Y,
+263,21935,OffshoreLeaks,Offshore Leaks,Hanoc Nominees Limited,True,1,1,1,2,Y,Y,
+264,118736,OffshoreLeaks,Offshore Leaks,HSBC International Trustee (Jersey) Ltd ,True,2,1,1,1,Y,Y,
+265,16908,OffshoreLeaks,Offshore Leaks,COMPANY KIT NOMINEES INC.,True,1,0,1,1,Y,Y,
+266,26989,OffshoreLeaks,Offshore Leaks,BTC Nominees S.A.,True,1,1,1,2,Y,Y,
+267,109927,OffshoreLeaks,Offshore Leaks,Butterfield Bank (Cayman ) Limited (as trustee of The Greater China Trust),True,1,0,1,1,Y,Y,
+268,61383,OffshoreLeaks,Offshore Leaks,Pacific International Trustees Limited  ,True,1,0,1,1,Y,Y,
+269,75770,OffshoreLeaks,Offshore Leaks,DYNAMIC CHINA CORPORATE LIMITED (formerly DYNAMIC CHINA (NOMINEES) LIMITED,True,1,1,1,2,Y,Y,
+270,41125,OffshoreLeaks,Offshore Leaks,Minerva Nominees Limited,True,1,1,1,1,Y,Y,
+271,17267,OffshoreLeaks,Offshore Leaks,Colairie Nominees Ltd,True,1,0,1,1,Y,Y,
+272,1600,OffshoreLeaks,Offshore Leaks,Hophil Nominees Limited,True,2,0,1,1,Y,Y,
+273,24946,OffshoreLeaks,Offshore Leaks,Compass Nominees Limited,True,1,1,1,1,Y,Y,
+274,13305,OffshoreLeaks,Offshore Leaks,Eurotrade Nominees Ltd.,True,1,0,1,1,Y,Y,
+275,103716,OffshoreLeaks,Offshore Leaks,Trustees of the Marino Family Trust,True,1,0,1,1,?,N,"""Trustees of X"" — likely individuals, not a company; single family trust, not a service"
+276,13357,OffshoreLeaks,Offshore Leaks,InterMax Nominees Ltd,True,1,0,1,1,Y,Y,
+277,18210,OffshoreLeaks,Offshore Leaks,HL Nominees (Cyprus) Limited,True,1,0,1,1,Y,Y,
+278,47046,OffshoreLeaks,Offshore Leaks,B. & McK. Nominees Limited,True,17,1,8,2,Y,Y,High entity_degree (17) — likely large CSP; Known corporate-services provider
+279,54706,OffshoreLeaks,Offshore Leaks,Managecorp Limited as Trustee of  the PRIME TRUST,True,1,1,1,1,Y,Y,
+280,5600,OffshoreLeaks,Offshore Leaks,Company Kit Nominees Inc.,True,3,0,1,1,Y,Y,
+281,121133,OffshoreLeaks,Offshore Leaks,Managecorp Limited as Trustee of The BAY Trust,True,3,0,1,1,Y,Y,
+282,34852,OffshoreLeaks,Offshore Leaks,Grange Nominees Limited,True,1,0,1,1,Y,Y,
+283,121617,OffshoreLeaks,Offshore Leaks,Portcullis Nominees Limited,True,6,0,4,3,Y,Y,Known corporate-services provider
+284,66352,OffshoreLeaks,Offshore Leaks,SHR LIMITED (formerly SHR Nominees Ltd.),True,2,0,2,1,Y,Y,
+285,65561,OffshoreLeaks,Offshore Leaks,Condor Nominees Ltd,True,2,0,1,1,Y,Y,
+286,74875,OffshoreLeaks,Offshore Leaks,Billion Well Nominees Limited,True,8,1,8,2,Y,Y,High entity_degree (8) — likely large CSP
+287,2174,OffshoreLeaks,Offshore Leaks,Cornhill Nominees Limited,True,1,0,1,1,Y,Y,
+288,67488,OffshoreLeaks,Offshore Leaks,Managecorp Limited as Trustee of the Tosca Trust,True,1,0,1,1,Y,Y,
+289,48136,OffshoreLeaks,Offshore Leaks,Iris Consultancy Ltd. as trustee of The,True,1,1,1,1,Y,Y,
+290,111329,OffshoreLeaks,Offshore Leaks,Harneys Trustees Limited,True,2,1,1,1,Y,Y,
+291,121961,OffshoreLeaks,Offshore Leaks,Metro Nominees Limited,True,2,0,2,1,Y,Y,
+292,107880,OffshoreLeaks,Offshore Leaks,Agros Nominees Ltd.,True,1,0,1,1,Y,Y,
+293,30781,OffshoreLeaks,Offshore Leaks,Nominee Director Ltd,True,1,0,1,1,Y,Y,
+294,1557,OffshoreLeaks,Offshore Leaks,Topworld (Nominees) Limited,True,2,0,2,2,Y,Y,
+295,5395,OffshoreLeaks,Offshore Leaks,Eurotrade Nominees Ltd,True,1,0,1,1,Y,Y,
+296,87990,OffshoreLeaks,Offshore Leaks,EVERGOLD NOMINEES LIMITED,True,1,1,1,1,Y,Y,
+297,21191,OffshoreLeaks,Offshore Leaks,Eurotrade  Nominees Ltd.,True,119,1,4,3,Y,Y,High entity_degree (119) — likely large CSP; Known corporate-services provider; deg=119 — large nominee company
+298,102609,OffshoreLeaks,Offshore Leaks,Managecorp Limited as a Trustee of Westend Holdings Trust,True,2,1,1,1,Y,Y,
+299,6245,OffshoreLeaks,Offshore Leaks,Canway Nominees Limited,True,1,0,1,1,Y,Y,
+300,13121,OffshoreLeaks,Offshore Leaks,Eurotrade Nominees Ltd.,True,1,0,1,1,Y,Y,
+301,22010834,Bahamas,Bahamas Leaks,ANGLO OFFSHORE NOMINEES L,False,1,0,1,1,Y,Y,Name truncated; Anglo Offshore Nominees Ltd
+302,22003691,Bahamas,Bahamas Leaks,HSBC TRUSTEE (GUERNSEY) L,False,2,0,1,1,Y,Y,Name truncated; HSBC Trustee (Guernsey) Ltd
+303,22020491,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+304,22010112,Bahamas,Bahamas Leaks,LUCAYA MANAGEMENT NOMINEE,True,1,0,1,1,Y,Y,
+305,22000435,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,5,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+306,22014155,Bahamas,Bahamas Leaks,CAFFCO NOMINEES LIMITED,True,1,0,1,1,Y,Y,
+307,22020489,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+308,22017674,Bahamas,Bahamas Leaks,LUCAYA MANAGEMENT NOMINEE,True,1,0,1,1,Y,Y,
+309,22024806,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+310,22006634,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+311,22013108,Bahamas,Bahamas Leaks,MSI NOMINEES LTD.,True,1,0,1,1,Y,Y,
+312,22024763,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMAS) LIMITED,True,1,0,1,1,Y,Y,
+313,22022658,Bahamas,Bahamas Leaks,LUCAYA MANAGEMENT NOMINEE,True,1,0,1,1,Y,Y,
+314,22015792,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+315,22010110,Bahamas,Bahamas Leaks,LUCAYA MANAGEMENT NOMINEE,True,1,0,1,1,Y,Y,
+316,22010117,Bahamas,Bahamas Leaks,LUCAYA MANAGEMENT NOMINEE,True,1,0,1,1,Y,Y,
+317,22006271,Bahamas,Bahamas Leaks,ANGLO OFFSHORE NOMINEES L,False,1,0,1,1,Y,Y,Name truncated; Anglo Offshore Nominees Ltd
+318,22019237,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+319,22003086,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,2,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+320,22001505,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,3,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+321,22022381,Bahamas,Bahamas Leaks,MSI NOMINEES LTD.,True,1,0,1,1,Y,Y,
+322,22008112,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+323,22006652,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+324,22022864,Bahamas,Bahamas Leaks,LUCAYA MANAGEMENT NOMINEE,True,1,0,1,1,Y,Y,
+325,22018184,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+326,22005150,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,2,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+327,22010096,Bahamas,Bahamas Leaks,LUCAYA MANAGEMENT NOMINEE,True,1,0,1,1,Y,Y,
+328,22008083,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+329,22021891,Bahamas,Bahamas Leaks,DEMA TRUSTEES LIMITED,True,1,0,1,1,Y,Y,
+330,22001295,Bahamas,Bahamas Leaks,LUCAYA MANAGEMENT NOMINEE,True,3,0,1,1,Y,Y,
+331,22019240,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+332,22002676,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,2,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+333,22012930,Bahamas,Bahamas Leaks,LUCAYA MANAGEMENT NOMINEE,True,1,0,1,1,Y,Y,
+334,22011375,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+335,22008088,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+336,22011354,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+337,22015790,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+338,22020278,Bahamas,Bahamas Leaks,WESTERN HOUSE NOMINEES LIMITED,True,1,0,1,1,Y,Y,
+339,22024756,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+340,22012928,Bahamas,Bahamas Leaks,LUCAYA MANAGEMENT NOMINEE,True,1,0,1,1,Y,Y,
+341,22003703,Bahamas,Bahamas Leaks,(NOMINEE) LTD ELCO,True,2,0,1,1,Y,Y,Name appears reversed/garbled; likely 'ELCO (NOMINEE) LTD'
+342,22001009,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,4,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+343,22014066,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMAS) LIMITED,True,1,0,1,1,Y,Y,
+344,22022862,Bahamas,Bahamas Leaks,LUCAYA MANAGEMENT NOMINEE,True,1,0,1,1,Y,Y,
+345,22010434,Bahamas,Bahamas Leaks,MSI NOMINEES LTD.,True,1,0,1,1,Y,Y,
+346,22006627,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+347,22014215,Bahamas,Bahamas Leaks,LZ NOMINEES LTD. OF TRIDENT CHAMBERS INC,True,1,0,1,1,Y,Y,
+348,22018178,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+349,22015789,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+350,22010427,Bahamas,Bahamas Leaks,MSI NOMINEES LTD.,True,1,0,1,1,Y,Y,
+351,22019236,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+352,22007445,Bahamas,Bahamas Leaks,FIDUCIARY SERVICES LTD.,True,1,0,1,1,Y,Y,
+353,22024790,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+354,22004289,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,2,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+355,22021814,Bahamas,Bahamas Leaks,"INTERNATIONAL NOMINEES, INC.",True,1,0,1,1,Y,Y,
+356,22024791,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+357,22015761,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMAS) LTD.,True,1,0,1,1,Y,Y,
+358,22019238,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+359,22024755,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+360,22015760,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMAS) LIMITED,True,1,0,1,1,Y,Y,
+361,22011371,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+362,22008520,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+363,22018186,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+364,22024771,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+365,22002688,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,2,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+366,22018181,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+367,22022866,Bahamas,Bahamas Leaks,LUCAYA MANAGEMENT NOMINEE,True,1,0,1,1,Y,Y,
+368,22006630,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+369,22024184,Bahamas,Bahamas Leaks,ANGLO NOMINEES LTD,True,1,0,1,1,Y,Y,
+370,22015802,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+371,22024801,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+372,22007962,Bahamas,Bahamas Leaks,(BVI) LIMITED FIDUCIARY DIRECTORS,True,1,0,1,1,Y,Y,Name appears garbled/reversed in database
+373,22020449,Bahamas,Bahamas Leaks,BEACON NOMINEES LIMITED,True,1,0,1,1,Y,Y,
+374,22003509,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,2,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+375,22007924,Bahamas,Bahamas Leaks,CAFFCO NOMINEES LIMITED,True,1,0,1,1,Y,Y,
+376,22022372,Bahamas,Bahamas Leaks,MSI NOMINEES LTD.,True,1,0,1,1,Y,Y,
+377,22001879,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,3,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+378,22001974,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,2,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+379,22008102,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+380,22001093,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,3,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+381,22020551,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+382,22010775,Bahamas,Bahamas Leaks,LUCAYA MANAGEMENT NOMINEE,True,1,0,1,1,Y,Y,
+383,22010431,Bahamas,Bahamas Leaks,MSI NOMINEES LTD.,True,1,0,1,1,Y,Y,
+384,22003506,Bahamas,Bahamas Leaks,ATC TRUSTEES (GUERNSEY) L,False,2,0,1,1,Y,Y,Name truncated; ATC Trustees (Guernsey) Ltd
+385,22001984,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,2,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+386,22006631,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+387,22008519,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+388,22013952,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+389,22018185,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+390,22016411,Bahamas,Bahamas Leaks,(NOMINEE) LTD ELCO,True,1,0,1,1,Y,Y,Name appears reversed/garbled; likely 'ELCO (NOMINEE) LTD'
+391,22003399,Bahamas,Bahamas Leaks,ANGLO NOMINEES LTD.,True,2,0,1,1,Y,Y,
+392,22017879,Bahamas,Bahamas Leaks,MSI NOMINEES LTD.,True,1,0,1,1,Y,Y,
+393,22005154,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,2,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+394,22008101,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+395,22011372,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+396,22006597,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+397,22008114,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+398,22024776,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+399,22008096,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
+400,22011352,Bahamas,Bahamas Leaks,STANDARD NOMINEES (BAHAMA,False,1,0,1,1,Y,Y,Name truncated in Bahamas Leaks data; full name Standard Nominees (Bahamas) Ltd
